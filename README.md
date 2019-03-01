@@ -23,3 +23,14 @@
    - 링크 찾아서 포함
 - [ ] How to viw log in eb instance
 
+#### Apache Bench
+
+> `SEE` https://gist.github.com/appkr/b5b494e0ab6dda3b36e83b25007cfaf6 
+```bash
+$ ab -v 3 -c 5 -n 100 -l http://localhost:8000/
+
+-v: Verborsity
+-c 5: Concurrency. 5 requests at a time
+-n 100: 100 requests for this test session
+-l: Required when content-length of response is dynamic(==chunked encoding)
+```
