@@ -1,0 +1,12 @@
+{
+    "name": "appkr/eb-demo",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "appkr",
+            "email": "juwonkim@me.com"
+        }
+    ],
+    "require": {}
+}
